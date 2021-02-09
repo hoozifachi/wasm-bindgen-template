@@ -3,7 +3,7 @@
     "build": "webpack",
     "build-rust": "build.sh",
     "serve": "webpack-dev-server",
-    "clean": "cargo clean & rm bindgenhello*"
+    "clean": "cargo clean & rm {{crate_name}}*"
   },
   "devDependencies": {
     "text-encoding": "^0.7.0",
