@@ -1,7 +1,9 @@
 {
   "scripts": {
     "build": "webpack",
-    "serve": "webpack-dev-server"
+    "build-rust": "build.sh",
+    "serve": "webpack-dev-server",
+    "clean": "cargo clean & rm bindgenhello*"
   },
   "devDependencies": {
     "text-encoding": "^0.7.0",
