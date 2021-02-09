@@ -1,7 +1,6 @@
 {
   "scripts": {
     "build": "webpack",
-    "build-rust": "build.sh",
     "serve": "webpack-dev-server",
     "clean": "cargo clean & rm {{crate_name}}*"
   },

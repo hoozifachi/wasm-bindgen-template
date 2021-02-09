@@ -26,7 +26,7 @@ npm install
 4. Build the Rust and wasm-bindgen
 
 ```bash
-npm run build-rust
+./build.sh
 ```
 
 5. Run the webpack build
